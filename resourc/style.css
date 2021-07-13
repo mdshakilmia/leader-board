@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+font-family: 'Lato', sans-serif;
+margin: 0%;
+padding: 0%;
+}
+
+/*--------------------
+ HEADER STYLES START
+ ------------------ */
+
+header{
+  background-color: lightseagreen;
+  height: 50px;
+  padding: 10px 50px;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+}
+.logo a img{
+  height: 50px;
+  width: 50px;
+}
+.menu ul{
+list-style: none;
+display: flex;
+}
+.menu ul li{
+  padding:0 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*--------------------
+ HEADER STYLES END 
+ ------------------ */
