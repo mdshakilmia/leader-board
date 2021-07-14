@@ -50,7 +50,8 @@ display: flex;
  /* MAIN SECTION START */
 main{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .top-palyer-and-blogs{
   width: 870px;
@@ -112,5 +113,52 @@ main{
   color:#9F9F9F;
 }
 
+/*------------------
+ COURSES STYLE START
+-------------------- */
+
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 870px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+.course-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow:1px 1px 15px rgb(237 237 237);
+}
+.course-card img{
+  width: 100%;
+}
+.description-courses{
+  text-align: left;
+  width: 100%;
+  color: #ED6B4F;
+}
+.description-courses h4{
+  color: #1E1E1E;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.ratting{
+  display: flex;
+  justify-content: space-between;
+}
+.ratting p{
+  font-size: .8rem;
+}
+.less-r{
+  color: #c7c7c7;
+}
+/*------------------
+ COURSES STYLE END
+-------------------*/
 
 /* MAIN SECTION END */
